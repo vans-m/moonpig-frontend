@@ -1,0 +1,16 @@
+.button {
+    border: none;
+    padding: 1rem 0;
+    background-color: #ffa6b6 ;
+    border-radius: 8px;
+    color: white;
+    font-size: .9rem;
+    font-weight: 700;
+    cursor: pointer;
+    width: 100%;
+}
+.secondary {
+    background-color: transparent;
+    border: #ffa6b6  2px solid;
+    color: #ffa6b6 ;
+}

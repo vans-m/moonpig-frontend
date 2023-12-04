@@ -1,0 +1,25 @@
+.card-button {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  transition: 200ms ease-in-out;
+  margin: 0.2rem 0 0 0;
+  box-shadow: 0.2rem 0.2rem 1.5rem rgba(0, 0, 0, 0.3);
+}
+
+.card-img-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.card-img-wrapper {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.card-button:hover {
+  margin: 0 0 0.2rem 0;
+  box-shadow: 0.5rem 0.5rem 1.5rem rgba(0, 0, 0, 0.3);
+}
