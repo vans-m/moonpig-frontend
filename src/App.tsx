@@ -1,17 +1,15 @@
 import React from 'react'
 import './App.css'
-import { products } from './mocks/products'
-import Card from './components/card/Card'
+import { Routes, Route } from 'react-router-dom'
+import ProductListPage from './pages/ProductListPage'
+import ProductPage from './pages/ProductPage'
 
 function App() {
   return (
-    <div className="container">
-      <ul className="card-list">
-        {products.map((product) => (
-          <Card key={product.ProductId} product={product} />
-        ))}
-      </ul>
-    </div>
+    <Routes>
+      <Route path="/" element={<ProductListPage />} />
+      <Route path="product" element={<ProductPage />} />
+    </Routes>
   )
 }
 

@@ -12,7 +12,7 @@
 
 .details-content {
   background-color: #fff;
-  padding: 1.5rem;
+  padding: 0 1.5rem 1.5rem;
   border: 1px solid #888;
   width: fit-content;
   max-width: 600px;
@@ -25,7 +25,7 @@
   font-size: 28px;
   font-weight: bold;
   cursor: pointer;
-  margin: .5rem 0;
+  margin: 0.5rem 0;
 }
 
 .close:hover {
@@ -33,13 +33,13 @@
 }
 
 .details-image-wrapper {
-    width: auto;
-    max-width: 400px;
-  margin: 1.5rem auto
+  width: auto;
+  max-width: 400px;
+  margin: 1.5rem auto;
 }
 
 .details-actions-wrapper {
-    display: flex;
-    flex-direction: row;
-    gap: .5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
 }

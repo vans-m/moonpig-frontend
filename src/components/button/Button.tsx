@@ -2,14 +2,15 @@ import React, { FC, ReactNode } from 'react'
 import './button.css'
 
 type ButtonProps = {
-  secondary: boolean
+  type: 'primary' | 'secondary'
   children: ReactNode
+  action: () => void
 }
 
-const Button: FC<ButtonProps> = ({ secondary, children }) => {
+const Button: FC<ButtonProps> = ({ type, children, action }) => {
   return (
-    <button className={`button ${secondary ? 'secondary' : ''}`}>
-        {children}
+    <button className={`button ${type}`} onClick={action}>
+      {children}
     </button>
   )
 }
