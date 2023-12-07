@@ -1,6 +1,5 @@
 {
   "name": "moonpig-frontend-assessment",
-  "homepage": "https://vans-m.github.io/moonpig-frontend/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
