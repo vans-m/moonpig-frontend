@@ -28,7 +28,7 @@ const ProductListPage: FC = () => {
   if ((error || !data) && !loading) return <div>Something went wrong</div>
 
   return (
-    <div className="container">
+    <div>
       {loading && <div data-testid="loading">Loading...</div>}
       <ul className="card-list">
         {filteredProducts.slice(0, displayCount).map((product) => (
