@@ -25,9 +25,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prettier": "npx prettier --write .",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "prettier": "npx prettier --write ."
   },
   "eslintConfig": {
     "extends": [
