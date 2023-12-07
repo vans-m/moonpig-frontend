@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/moonpig-frontend/static/css/main.c2981297.css",
+    "main.js": "/moonpig-frontend/static/js/main.c38c512e.js",
+    "index.html": "/moonpig-frontend/index.html",
+    "main.c2981297.css.map": "/moonpig-frontend/static/css/main.c2981297.css.map",
+    "main.c38c512e.js.map": "/moonpig-frontend/static/js/main.c38c512e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2981297.css",
+    "static/js/main.c38c512e.js"
+  ]
+}
