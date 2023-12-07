@@ -1,24 +1,24 @@
 .card-list {
   display: grid;
-  grid-template-columns: repeat(1, auto);
+  grid-template-columns: repeat(2, auto);
   justify-items: center;
   align-items: center;
   grid-auto-flow: row;
-  padding: 1rem 3rem;
+  padding: 1rem;
   gap: 1rem;
   align-content: center;
 }
 
-/* Small devices */
-@media only screen and (min-width: 600px) {
-  .card-list {
-    grid-template-columns: repeat(2, auto);
-  }
+.load-more {
+  max-width: fit-content;
+  margin: 0 auto 1rem;
 }
+
 /* Medium devices */
 @media only screen and (min-width: 768px) {
   .card-list {
     grid-template-columns: repeat(3, auto);
+    padding: 1rem 3rem;
   }
 }
 /* Large devices */

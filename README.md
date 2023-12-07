@@ -1,46 +1,43 @@
-# Getting Started with Create React App
+<!-- ABOUT THE PROJECT -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About The Project
 
-## Available Scripts
+This project is built with a focus on leveraging key technologies and best practices to create a robust and maintainable codebase.
 
-In the project directory, you can run:
+You can check the project at this [URL]()
 
-### `npm start`
+Here are the technical choices I made during development:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Choosing React over Next.js
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Comfort and Familiarity: Given my two years of hands-on development experience with React, I feel most comfortable with this library, its tooling and testing methodology.
 
-### `npm test`
+Skill Representation: As previously mentioned, I believe that using React would represent my skills more accurately for this assessment. However, I'm always willing to learn new stacks and I believe that my current experience would be relevant and speed up my learning.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Choosing TypeScript
 
-### `npm run build`
+Code Documentation: I opted for TypeScript to enhance code documentation, leveraging a year of prior experience. This decision allows me to showcase my understanding of types and interfaces and how to use TypeScript parameters to improve reusability.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Type Safety with React: Throughout the project, I've demonstrated the integration of React and TypeScript, using inherited React types like "FC" and typing the "useState" hooks when needed.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Choosing CSS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+CSS Modules for Simplicity: While I've been working mostly with CSS-in-JS libraries, specifically styled-components, I decided to use CSS modules in this project to minimize complexity and streamline styling practices.
 
-### `npm run eject`
+### Prettier setup
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Consistent Code Styling: To maintain consistency throughout the codebase, I've set up a Prettier script. This ensures a uniform and clean coding style, reflecting my commitment to code quality and readability.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- GETTING STARTED -->
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Getting Started
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### To start the app: `yarn start`
 
-## Learn More
+#### To run the tests: `yarn test`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- CONTACT -->
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contact
+
+Vanessa Muratore - [Linkedin](https://www.linkedin.com/in/vanessa-muratore/) - m.vanessa.dev@gmail.com

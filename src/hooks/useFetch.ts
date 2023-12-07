@@ -1,14 +1,13 @@
 import { useEffect, useState } from 'react'
-import { Product } from '../types/product'
 
-type useFetchReturn = {
-  products: Product[]
+export interface useFetchReturn<R> {
+  data?: R
   loading: boolean
-  error: string
+  error?: string
 }
 
-export const useFetch = (api: string): useFetchReturn => {
-  const [products, setProducts] = useState<Product[]>([])
+export const useFetch = <R>(api: string): useFetchReturn<R> => {
+  const [data, setData] = useState<R>()
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
 
@@ -16,15 +15,14 @@ export const useFetch = (api: string): useFetchReturn => {
     const fetchData = async () => {
       setLoading(true)
       const response = await fetch(api)
-      const data = await response.json()
+      const dataResponse = await response.json()
       setLoading(false)
-      setProducts(data.Products ?? [])
+      setData(dataResponse ?? {})
     }
     fetchData().catch((err) => {
       setError(err)
       setLoading(false)
     })
   }, [api])
-  console.log(products)
-  return { products, loading, error }
+  return { data, loading, error }
 }

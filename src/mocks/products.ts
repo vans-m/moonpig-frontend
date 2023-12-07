@@ -1,4 +1,4 @@
-export const products = [
+export const mockProducts = [
   {
     Price: {
       Value: 3.49,
