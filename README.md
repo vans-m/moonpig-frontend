@@ -4,7 +4,7 @@
 
 This project is built with a focus on leveraging key technologies and best practices to create a robust and maintainable codebase.
 
-You can check the project at this [URL](https://vans-m.github.io/moonpig-frontend/)
+You can check the project at this [URL](https://main--cosmic-shortbread-6bdd8a.netlify.app/)
 
 Here are the technical choices I made during development:
 
